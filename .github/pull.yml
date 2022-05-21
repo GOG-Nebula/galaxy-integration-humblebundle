@@ -1,0 +1,14 @@
+version: "1"
+rules:
+  - base: master
+    upstream: UncleGoogle:master
+    mergeMethod: none  # Optional, one of [none, merge, squash, rebase, hardreset], Default: none.
+    mergeUnstable: false    # Optional, merge pull request even when the mergeable_state is not clean. Default: false
+    # assignees:              # Optional
+    reviewers:              # Optional
+      - urwrstkn8mare
+      - AndrewDWhite
+    conflictReviewers:      # Optional, on merge conflict assign a reviewer
+      - UncleGoogle
+label: ":arrow_heading_down: pull"  # Optional
+conflictLabel: "merge-conflict"     # Optional, on merge conflict assign a custom label, Default: merge-conflict
