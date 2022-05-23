@@ -10,5 +10,5 @@ rules:
       - AndrewDWhite
     conflictReviewers:      # Optional, on merge conflict assign a reviewer
       - UncleGoogle
-label: ":arrow_heading_down: pull"  # Optional
+label: ":arrow_heading_down: sync"  # Optional
 conflictLabel: "merge-conflict"     # Optional, on merge conflict assign a custom label, Default: merge-conflict
