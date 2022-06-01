@@ -10,7 +10,7 @@ jobs:
       - uses: GOG-Nebula/actions-sync-fork@feature/initial
         with:
           upstream_owner: UncleGoogle
-          upstream_repo: galaxy-integration-humblebundle/
+          upstream_repo: galaxy-integration-humblebundle
           upstream_branch: master
           reviewers: urwrstkn8mare,AndrewDWhite
           token: ${{ secrets.GITHUB_TOKEN }}
