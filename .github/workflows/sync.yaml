@@ -7,7 +7,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: GOG-Nebula/actions-sync-fork@feature/initial
+      - uses: GOG-Nebula/actions-sync-fork@main
         with:
           upstream_owner: UncleGoogle
           upstream_repo: galaxy-integration-humblebundle
